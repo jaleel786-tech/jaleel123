@@ -1,0 +1,124 @@
+/* Base styles for the entire page */
+body {
+    font-family: 'Arial', sans-serif; /* Clean, modern font */
+    line-height: 1.6; /* Better readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark gray text for good contrast */
+}
+
+/* Main container for all content */
+.container {
+    width: 80%; /* Take up 80% of page width */
+    margin: auto; /* Center the container */
+    overflow: hidden; /* Contain floats */
+    padding: 20px; /* Add some inner spacing */
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #444; /* Slightly darker than body text */
+}
+
+/* Form container styling */
+.form-container {
+    background: #fff; /* White background */
+    padding: 20px; /* Inner spacing */
+    margin-bottom: 20px; /* Space below the form */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form group styling (each input + label) */
+.form-group {
+    margin-bottom: 15px; /* Space between form fields */
+}
+
+/* Label styling */
+label {
+    display: block; /* Make labels block elements */
+    margin-bottom: 5px; /* Space between label and input */
+    font-weight: bold; /* Make labels bold */
+}
+
+/* Text input styling */
+input[type="text"] {
+    width: 100%; /* Full width */
+    padding: 8px; /* Comfortable padding */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Slightly rounded corners */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+/* Button base styling */
+button {
+    background: #333; /* Dark background */
+    color: #fff; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Comfortable padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background 0.3s; /* Smooth color transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background: #555; /* Slightly lighter on hover */
+}
+
+/* Book list container */
+.book-list {
+    background: #fff; /* White background */
+    padding: 20px; /* Inner spacing */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Search container layout */
+.search-container {
+    margin-bottom: 20px; /* Space below search */
+    display: flex; /* Use flexbox for layout */
+    gap: 10px; /* Space between elements */
+}
+
+/* Search input takes remaining space */
+.search-container input {
+    flex: 1; /* Take up available space */
+}
+
+/* Table styling */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove space between cells */
+}
+
+/* Table header and cell styling */
+table, th, td {
+    border: 1px solid #ddd; /* Light gray borders */
+}
+
+/* Table cell padding */
+th, td {
+    padding: 12px; /* Comfortable spacing */
+    text-align: left; /* Left-aligned text */
+}
+
+/* Table header background */
+th {
+    background-color: #f4f4f4; /* Light gray background */
+}
+
+/* Alternate row coloring */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Very light gray for even rows */
+}
+
+/* Action button base styling */
+.action-btn {
+    padding: 5px 10px; /* Smaller padding */
+    margin: 0 5px; /* Space between buttons */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 3px; /* Slightly rounded */
+    cursor: pointer; /* Pointer cursor
